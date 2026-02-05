@@ -19,4 +19,5 @@ contract DaxeshToken is ERC20, Ownable {
     function burn(uint256 amount) public {
         _burn(msg.sender, amount);
     }
+
 }
